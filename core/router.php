@@ -1,6 +1,6 @@
 <?php
 
-require '../config/routes.php';
+$routes = require '../config/routes.php';
 
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 

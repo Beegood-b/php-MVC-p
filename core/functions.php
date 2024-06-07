@@ -13,7 +13,7 @@ function abort()
 {
   http_response_code($code = 404);
 
-  require "views/{$code}.php";
+  require "../app/views/{$code}.php";
 
   die();
 }
